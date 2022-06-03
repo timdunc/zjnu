@@ -26,7 +26,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/login">{user ? <Redirect to="/login" /> : <Login />}</Route>
+        <Route path="/login"></Route>
         {user && (
           <>
             <Topbar />
